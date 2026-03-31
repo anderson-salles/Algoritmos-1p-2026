@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(){
+    float a, b, c;
+    char conc[50];
+    scanf("%f %f %f" , &a,&b,&c);
+    if ((a < b) && (a < c)){
+        printf ("A Menor");
+    }if ((b < a) && (b < c)){
+        printf ("B Menor");
+    }if ((c < a) && (c < b)){
+        printf ("C Menor");
+    }
+return 0;
+}
